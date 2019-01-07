@@ -2,7 +2,7 @@
     "version": 2,
     "name": "monorepo",
     "builds": [
-        { "src": "packages/server/*.js", "use": "@foton/server" }
+        { "src": "packages/server/*.js" }
     ],
     "routes": [
         { "src": "/(.*)", "dest": "/packages/server/$1" }
