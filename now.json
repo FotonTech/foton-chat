@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "monorepo",
+    "builds": [
+        { "src": "packages/server/*.js", "use": "@foton/server" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/packages/server/$1" }
+    ]
+}
