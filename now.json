@@ -2,7 +2,7 @@
     "version": 2,
     "name": "monorepo",
     "builds": [
-        { "src": "packages/server/*.js" }
+        { "src": "packages/server/*.js", "use": "@now/node" }
     ],
     "routes": [
         { "src": "/(.*)", "dest": "/packages/server/$1" }
