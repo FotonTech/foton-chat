@@ -5,6 +5,6 @@
         { "src": "packages/server/*.js", "use": "@now/node" }
     ],
     "routes": [
-        { "src": "/packages/server/(.*)", "dest": "/packages/server/$1" }
+        { "src": "/packages/server/(.*)", "dest": "/packages/server/dist/$1" }
     ]
 }
