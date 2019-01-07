@@ -1,6 +1,6 @@
 {
   "name": "foton-chat",
-  version: 2,
+  "version": 2,
   "builds": [
     { "src": "./packages/server/*.js", "use": "@now/node" },
   ],
